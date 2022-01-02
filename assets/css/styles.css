@@ -298,5 +298,9 @@ a {
     .preci__title {
       color: var(--black-color);
       font-weight: 500; } }
+@media screen and (min-width: 1200px) {
+  .bd-grid {
+    margin-left: auto;
+    margin-right: auto; } }
 
 /*# sourceMappingURL=styles.css.map */
