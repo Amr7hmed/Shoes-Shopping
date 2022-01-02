@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Shopping</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/icons/nike-logo.svg">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/icons/nike-logo.svg">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/icons/nike-logo.svg">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/icons/nike-logo.svg">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/icons/nike-logo.svg">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/icons/nike-logo.svg">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/icons/nike-logo.svg">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/icons/nike-logo.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/icons/nike-logo.svg">
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/icons/nike-logo.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/nike-logo.svg">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/icons/nike-logo.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/icons/nike-logo.svg">
+    <!-- Style Css -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+
+    <!-- ===== MAIN HEADER ===== -->
+    <header class="l-header">
+        <!--  ===== NAV =====  -->
+        <nav class="nav bd-grid">
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <img src="./assets/icons/icon-menu.svg" alt="Navbar Menu" />
+            </div>
+
+            <div>
+                <a href="#" class="nav__logo">
+                    <img src="./assets/icons/nike-logo.svg" alt="logo">
+                </a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">MEN</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">WOMEN</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">KIDS</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">CUSTOMIZE</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">SALE</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__shop">
+                <img src="./assets/icons/shopping-bag.svg" alt="Cart">
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===== HOME ===== -->
+    <main class="l-main bd-grid">
+        <div class="home">
+            <!-- ===== SNEAKER ===== -->
+            <div class="sneaker">
+
+                <div class="sneaker__figure">
+                </div>
+
+                <div>
+                    <img src="assets/img/NikeAirMaxMotion2.png" alt="Shows Burn"
+                     class="sneaker__img shows" color="#A29596">
+                    <img src="assets/img/NikeAirMax Motion2black.png" alt="Shows Black"
+                     class="sneaker__img" color="#111111">
+                </div>
+
+                <div class="sneaker__colors">
+                    <span class="sneaker__color sneaker__colors-one active"
+                     primary="#A29596" color="#A29596"></span>
+                    <span class="sneaker__color sneaker__colors-two"
+                     primary="#111111" color="#111111"></span>
+                </div>
+
+            </div>
+                <!-- ===== IFORMACION ===== -->
+                <div class="info">
+                    <!-- ===== DATA ===== -->
+                    <div class="data">
+                        
+                        <span class="data__subtitle">Nike</span>
+                        <h1 class="data__title">Air Max Motion 2</h1>
+                        <p class="data__description">
+                            Combinan la malla transpirable sin costuras para
+                             <br> un estilo tradicional.</p>
+                        
+                    </div>
+                    <!-- ===== ACTIONS ===== -->
+                    <div class="actions">
+                        <!-- ===== SIZE ===== -->
+                        <div class="size">
+                            <h3 class="size__title">Tallas</h3>
+
+                            <div class="size__content">
+                                <span class="size__tallas active">
+                                    8.5
+                                </span>
+                                <span class="size__tallas">
+                                    9
+                                </span>
+                                <span class="size__tallas">
+                                    9.5
+                                </span>
+                            </div>
+
+                        </div>
+                        <!-- ===== CANT ===== -->
+                        <div class="cant">
+                            <h3 class="cant__title">Cant .</h3>
+
+                            <div class="cant__content"> 
+                                <span id="cant-decrease">-</span>
+                                <span id="cant-qunt">1</span>
+                                <span id="cant-increase">+</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- ===== PRECI ===== -->
+                    <div class="preci">
+                        <span class="preci__title">$
+                            <span class="price">
+                                50.00
+                            </span>
+                        </span>
+                        <a href="#" class="preci__button">ADD TO CART</a>
+                    </div>
+
+                </div>
+        </div>
+    </main>
+
+    <!-- MAIN Script -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
